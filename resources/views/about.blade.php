@@ -1,5 +1,11 @@
 @extends('layouts.master')
+@section('img')
+background-image: url('{{asset('assets/img/about-bg.jpg')}}')
+@endsection
 @section('head', 'About Me')
+@section('subheading')
+This is what I do.
+@endsection
 @section('content')
         <!-- Main Content-->
         <main class="mb-4">
